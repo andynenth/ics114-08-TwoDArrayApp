@@ -13,7 +13,7 @@ namespace TwoDArrayApp
             for (int i = 0; i < twoDArray.GetLongLength(0); i++)
             {
                     Random r = new Random();
-                    twoDArray[i, 0] = r.Next(0, 100);
+                    twoDArray[i, 0] = r.Next(1, 101);
                     twoDArray[i, 1] = (int)Math.Pow(twoDArray[i, 0], 2);
             }
             
